@@ -1,0 +1,12 @@
+html
+    head
+        title= title
+        link(rel="stylesheet", href="/css/styles.css")
+    body
+        div(class=["container"])
+            h1(id="myH1")= title
+            div(class="contacts")
+                ul
+                    each contact in contactData
+                        li(class="contact rounded")= contact.name + ' - ' + contact.phone + ' - '+ contact.email
+        script(src="/js/scripts.js")
