@@ -1,2 +1,1 @@
-# ExpressPugDemo
-web project
+# Mach12Merch
